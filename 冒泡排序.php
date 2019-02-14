@@ -3,16 +3,21 @@
  * 冒泡排序
  */
 
-$array = array(2,4,1,7,3,9,6);
+$array = array();
 $count_array = count($array);
+$switch = 0;
 
-for($i=0;$i<$count_array;$i++){ //从每一个数组元素开始一遍
-    for($j=0;$j<($count_array-$i-1);$j++){ //每次循环确定一个最大的在右边
-        if($array[$j] > $array[$j + 1]){ //两两相比，大的放右边
-            $temp = $array[$j];
-            $array[$j] = $array[$j + 1];
-            $array[$j + 1] = $temp;
-        }
+for($i=0;$i<$count_array-1;$i++){
+    for($j=0;$j<$count_array-$i-1;$j++){
+       if($array[$j]>$array[$j+1]){ //两两相比
+           $temp = $array[$j];
+           $array[$j] = $array[$j+1];
+           $array[$j+1] = $temp;
+           $switch++;
+       }
+   }
+    if($switch==0){ //没有交换则已为有序数组
+        break;
     }
 }
 
