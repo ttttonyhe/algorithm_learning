@@ -1,4 +1,7 @@
 <?php
+/*
+ * 选择排序
+ */
 
 $array = array(2,4,1,7,3,9,6);
 $count_array = count($array);
