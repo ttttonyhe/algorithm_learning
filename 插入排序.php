@@ -11,9 +11,9 @@ for($i=1;$i<$count_array;$i++){
     $current = $array[$i];
     while($index>=0 && $array[$index] > $current){
         $array[$index+1] = $array[$index];
-        $array[$index] = $current;
         $index--;
     }
+    $array[$index+1] = $current;
 }
 
 var_dump($array);

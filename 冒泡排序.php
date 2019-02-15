@@ -3,7 +3,7 @@
  * 冒泡排序
  */
 
-$array = array();
+$array = array(1,24,54,54,236,37,457);
 $count_array = count($array);
 $switch = 0;
 
