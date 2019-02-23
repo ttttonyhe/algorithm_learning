@@ -19,7 +19,7 @@ function mergesort($array){
     */
 }
 
-function merge($left,$right){
+function merge($left,$right){ //对两个有序数组进行合并排序
     $result = array();
     while(count($left) > 0 && count($right) >0){ //count函数动态判断数组长度
         if($left[0] <= $right[0]){
