@@ -1,0 +1,12 @@
+{
+  "name": "algorithm_learning_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.js",
+  "scripts": {
+    "dev":"tsc --outFile dist/all.js src/all.ts && node dist/all.js",
+    "test":"node all.js"
+  },
+  "author": "TonyHe",
+  "license": "MIT"
+}
