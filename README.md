@@ -1,5 +1,5 @@
 # algorithm_learning
-逻辑弱鸡的算法学习之路(先用Php写一遍)
+学一学算法吧
 
 <br/>
 
@@ -9,22 +9,17 @@
 <br/>
 
 ### 对应解析
-+ 冒泡算法(https://www.ouorz.com/239)
-+ 选择排序(https://www.ouorz.com/242)
-+ 插入排序(https://www.ouorz.com/244)
-+ 希尔排序(https://www.ouorz.com/246)
-+ 归并排序(https://www.ouorz.com/282)
-+ 快速排序(https://www.ouorz.com/341)
++ 冒泡算法(https://www.ouorz.com/post/239)
++ 选择排序(https://www.ouorz.com/post/242)
++ 插入排序(https://www.ouorz.com/post/244)
++ 希尔排序(https://www.ouorz.com/post/246)
++ 归并排序(https://www.ouorz.com/post/282)
++ 快速排序(https://www.ouorz.com/post/341)
 
 <br/>
 
 ### 参考内容
 + Js Sorting(https://github.com/HelipengTony/JS-Sorting-Algorithm)
-
-<br/>
-
-### 需要巩固
-+ 递归思路
 
 <br/>
 
